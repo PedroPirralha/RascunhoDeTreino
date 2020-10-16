@@ -1,0 +1,21 @@
+nome = input('escreva algo')
+cores = {'limpa':'\033[m',
+         'textwhite':'\033[30m',
+         'textred':'\033[31m',
+         'textgreen':'\033[32m',
+         'textyeloow':'\033[33m',
+         'textblue':'\033[34m',
+         'textpurple':'\033[35m',
+         'textbluish':'\033[36m',
+         'textgray':'\033[37m',
+         'negrito':'\033[1m',
+         'sublinhado':'\033[4m',
+         'backwhite': '\033[40m',
+         'backred': '\033[41m',
+         'backgreen': '\033[42m',
+         'backyeloow': '\033[43m',
+         'backblue': '\033[44m',
+         'backpurple': '\033[45m',
+         'backbluish': '\033[46m',
+         'backgray': '\033[47m'}
+print ('{}{}{}'.format(cores['textbluish'],nome,cores['limpa']))
